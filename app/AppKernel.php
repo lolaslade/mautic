@@ -122,6 +122,7 @@ class AppKernel extends Kernel
             new FM\ElfinderBundle\FMElfinderBundle(),
             new Exercise\HTMLPurifierBundle\ExerciseHTMLPurifierBundle(),
             new ApiPlatform\Symfony\Bundle\ApiPlatformBundle(),
+            new Twig\Extra\TwigExtraBundle\TwigExtraBundle(),
 
             // Mautic Bundles
             new Mautic\ApiBundle\MauticApiBundle(),
